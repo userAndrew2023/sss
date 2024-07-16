@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --backround-color: #2A2B37;
+    --border-mixed: 9px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--backround-color);
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.first_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rooms {
+    background-color: #15151E;
+    text-align: left;
+    width: 39%;
+    border-radius: var(--border-mixed);
+    margin-right: 20px;
+    height: 173px;
+}
+
+.rooms-label {
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.balance {
+    width: 56%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #15151E;
+    border-radius: var(--border-mixed);
+    padding: 26px 15px 15px;
+}
+
+.balance-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #B9B9B9;
+}
+
+.balance-sum {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.balance-sum-logo {
+    filter:drop-shadow(0 0 13px rgba(120, 97, 165, 0.5));
+    margin-left: 5px;
+}
+
+.balance-sum-wrapper {
+    display: flex;
+}
+
+.first-balance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.balance-topup-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #A5A5A6;
+    width: 40px;
+    height: 40px;
+}
+
+.balance-topup-main-plus {
+    text-align: center;
+    color: #A5A5A6;
+}
+
+.mini-user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.mini-user-info {
+}
+
+.week-earn {
+    margin-left: 11px;
+}
+
+.user-info-username {
+    font-weight: 500;
+    font-size: 13px;
+    color: #787878;
+}
+
+.second-balance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.week-earn-label {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 9px;
+    color: #B9B9B9;
+}
+
+.week-earn-label-green{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 9px;
+    color: #31B545;
+}
+
+.balance-sum-logo-wrapper-mini {
+    filter:drop-shadow(0 0 13px rgba(120, 97, 165, 0.5));
+    margin-left: 2px;
+    width: 15px;
+    height: 15px;
+    margin-top: 12px;
+}
+
+.week-earn-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.second-section {
+    border-radius: var(--border-mixed);
+    background-color: #15151E;
+    margin-top: 25px;
+    padding: 25px 17px 11px;
+}
+
+.game-hr {
+    border-top: 1px solid white;
+    width: 40%;
+}
+
+.start-game-label {
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.start-game {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.available-card {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 50px;
+    align-items: center;
+    padding: 15px 25px;
+    background: linear-gradient(269.87deg, #5C4E73 44.24%, #5C4E73 44.24%, rgba(36, 35, 46, 0) 99.86%);
+}
+
+.go {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.room-number {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.room-label {
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.players-label {
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.players-count {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.all-rooms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: var(--border-mixed);
+    margin-top: 19px;
+    background: linear-gradient(270.01deg, #5C4E73 0.01%, #5C4E73 0.02%, rgba(36, 35, 46, 0) 100%), #5C4E73;
+}
+
+.third-section {
+    margin-top: 28px;
+    margin-bottom: 94px;
+    background-color: #4A3E5D;
+    border-radius: var(--border-mixed);
+    padding: 7px 10px;
+}
+
+.top-player-card {
+    background: #2A2B37;
+    border-radius: 20px;
+    padding: 14px 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.top-player-image {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    filter: blur(1px);
+    margin-right: 19px;
+}
+
+.top-player-card-info {
+    display: flex;
+    align-items: center;
+}
+
+.top-player-card-username {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.players-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-win-sum {
+    display: flex;
+    align-items: center;
+}
+
+.player-win-sum-label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.top-player-balance-sum-logo {
+    filter:drop-shadow(0 0 13px rgba(120, 97, 165, 0.5));
+    margin-left: 9px;
+    width: 20px;
+    height: 20px;
+}
+
+.top-player-filter-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top-player-filter {
+    border-radius: var(--border-mixed);
+    background-color: #23232E;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 8px;
+    width: 63%;
+}
+
+.top-player-filter-mock {
+    border-radius: var(--border-mixed);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 8px;
+    width: 37%;
+}
